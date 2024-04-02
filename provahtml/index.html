@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div> 
+        <h1 class="usuario">Nome do aluno</h1>
+        <div class="informacoes">
+            <div>
+                <form class="form">
+                    <b> 
+                        <h3 id="loginescrita" >Login</h3>
+                    </b> <br>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e pode fazer as configurações no seu ambiente.</p>
+                    
+                    <div class="fundoroxo">
+                        <div> 
+                            <i class="icons-feather" id="email" data-feather="mail"></i>
+                            <input class="fundoinput" type="text" placeholder="Seu e-mail"> 
+                        </div>
+                        <div>
+                            <i class="icons-feather" id="check" data-feather="check"></i>
+                            <input class="fundoinput" type="password" placeholder="Sua senha">
+                        </div>
+                        <div> 
+                    </div>
+
+                        <button class="botao" type="submit">Entrar</button>
+                    </div>
+                    <div> 
+                        <button class="esqueciasenha" type="submit">Esqueci a senha</button>
+                    </div>
+
+                    <div class="redessociais">
+                        <ul class="icons-footer">
+                            <ul><i id="facebook" data-feather="facebook"></i></ul> 
+                            <ul><i id="twitter" data-feather="twitter"></i></ul>
+                            <ul><i id="instagram" data-feather="instagram"></i></ul>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div class="img">
+                <img class="logotipoif" src="logotipo.jpg" alt="">
+            </div>
+        </div>
+
+    <!-- Replace dos icons-->
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

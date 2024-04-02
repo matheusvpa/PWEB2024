@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to top, #03bb85, purple);
+    background-repeat: no-repeat;
+    height: 58vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.informacoes{
+    border-radius: 20px;
+    background-color: white;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin-top: 14vw;
+    margin-left: 8vw;
+}
+
+.redessociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#facebook{
+    color: #3b5998;
+}
+#facebook :hover{
+    color: #70baff;
+}
+
+#instagram{ 
+    color: #d68fff;
+}
+
+#instagram :hover{
+    color: #9a67b8;
+}
+
+#twitter{
+    color: black;
+}
+
+#twitter :hover{
+    color: gray;
+}
+
+.icons-footer ul{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+
+.botao{
+    background-color: #03bb85;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.fundoinput{
+    padding: 5px;
+    width: 80%;
+    background-color: #96ffe0;
+}
+
+.esqueciasenha{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.info{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 77%;
+    margin-top: 10px;
+}
+
+.img img{
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+#loginescrita{
+    margin-left: 200px;
+}
+
+.usuario{
+    color:white;
+    justify-content: center;
+    display: flex;
+}
+
+.form{
+    margin-left: 10px;
+}
