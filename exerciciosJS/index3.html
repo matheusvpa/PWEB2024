@@ -1,0 +1,12 @@
+<script> 
+    broas = Number(prompt("Escreva quantos broas foram vendidas: "))
+    totalbroas = broas * 1.50 
+
+    pao = Number(prompt("Escreva quantos pães foram vendidos: "))
+    totalpao = pao * 0.12
+
+    poupanca = (totalbroas + totalpao)* 0.10 
+
+    document.write("Você deve guardar R$", poupanca.toFixed(2), " na poupança.")
+    document.write("Foram vendidos R$ ",totalbroas.toFixed(2), " de broas, e foram vendidos R$", totalpao.toFixed(2), " de pães.") 
+</script>
