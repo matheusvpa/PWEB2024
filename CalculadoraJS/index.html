@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Matheus Vinicius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="resultado" readonly>
+
+        <div class="botoes">
+            <button class="btn-limpar" onClick="limparResultado()">C</button>
+            <button onClick="escolherOperacao('quadrado')">x²</button>            
+            <button onClick="escolherOperacao('raiz')">√</button>
+
+            <button onClick="adicionarValor('7')">7</button>
+            <button onClick="adicionarValor('8')">8</button>
+            <button onClick="adicionarValor('9')">9</button>
+            <button onClick="escolherOperacao('*')">×</button>
+
+            <button onClick="adicionarValor('4')">4</button>
+            <button onClick="adicionarValor('5')">5</button>
+            <button onClick="adicionarValor('6')">6</button>
+            <button onClick="escolherOperacao('/')">/</button>
+
+            <button onClick="adicionarValor('1')">1</button>
+            <button onClick="adicionarValor('2')">2</button>
+            <button onClick="adicionarValor('3')">3</button>
+            <button onClick="escolherOperacao('+')">+</button>
+
+            <button onClick="escolherOperacao('%')">%</button>
+            <button onClick="adicionarValor('0')">0</button>
+        
+            <button onClick="escolherOperacao('-')">-</button>
+            <button onClick="calcular()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
