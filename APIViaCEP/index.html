@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="formulario-container">
+        <h1>Formulário</h1>
+        <form id="formulario">
+            <div class="input-grupo">
+                <input type="text" id="nome" placeholder="Nome: " name="nome" required>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="sobrenome" placeholder="Sobrenome: " name="sobrenome" required>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="telefone" placeholder="Telefone: " name="telefone" required>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="cep" name="cep" required placeholder="CEP: " maxlength="10">
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="logradouro" placeholder="Rua: " name="logradouro" disabled>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="bairro" placeholder="Bairro:" name="bairro" disabled>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="cidade" placeholder="Cidade: " name="cidade" disabled>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="estado" placeholder="Estado:" name="estado" disabled>
+            </div>
+
+            <div class="input-grupo">
+                <input type="text" id="numero" placeholder="Número do Endereço: " name="numero" required>
+            </div>
+
+            <div class="input-grupo">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
